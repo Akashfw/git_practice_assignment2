@@ -1,1 +1,14 @@
-let ysjshjdsjd
+let sting="ankush";
+function pelindrome(str){
+let bag="";
+for(let i=str.length-1;i>=0;i++){
+bag+=str[i];
+}return bag;
+}
+
+let rev= pelindrome(ankush);
+ if(rev==string){
+    console.log("palindrome");
+}else{
+  console.log("not a palindrome")
+}
