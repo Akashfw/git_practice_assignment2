@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    let x=11;
+    let even= new Promise(function(resolve,reject){
+        if(x%2==0){
+            resolve("even No.")
+        }else{
+             reject("odd no.")
+        }
+    });
+    console.log(even);
+    even
+    .then(function(ev){
+        console.log(ev);
+    })
+    .catch(function(od){
+        console.log(od);
+    })
+</script>
